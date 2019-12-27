@@ -8,8 +8,8 @@
  const sideDrawer = (props) => {
    return (
      <Drawer
-        anchor='right'
-        open={props.open}
+        anchor= 'right'
+        open= {props.open}
         onClose={() => props.onClose(false)}
      >
         <List component='nav'>
