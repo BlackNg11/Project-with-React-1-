@@ -6,6 +6,9 @@ import Featured from "./component/featured";
 import VenueNfo from "./component/venueInfo";
 import Hightlight from "./component/Hightlight";
 import Pricing from './component/pricing';
+import Location from './component/location';
+import Footer from './component/header_footer/Footer';
+
 
 
 class App extends Component {
@@ -20,6 +23,8 @@ class App extends Component {
         <VenueNfo />
         <Hightlight />
         <Pricing />
+        <Location />
+        <Footer />
       </div>
     );
   }
